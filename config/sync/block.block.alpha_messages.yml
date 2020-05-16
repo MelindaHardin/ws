@@ -1,0 +1,22 @@
+uuid: f04938bc-6d24-4a40-a9c1-477b37ab6e72
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - alpha
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: alpha_messages
+theme: alpha
+region: primary_menu
+weight: 4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

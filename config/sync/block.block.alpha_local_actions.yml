@@ -1,0 +1,20 @@
+uuid: 9bbcd3c4-1b12-44b6-963e-cd43d9a41c0a
+langcode: en
+status: false
+dependencies:
+  theme:
+    - alpha
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: alpha_local_actions
+theme: alpha
+region: primary_menu
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

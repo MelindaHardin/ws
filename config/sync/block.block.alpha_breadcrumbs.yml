@@ -1,0 +1,22 @@
+uuid: d04355b3-c98c-4f27-a2ce-86e035462723
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - alpha
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: alpha_breadcrumbs
+theme: alpha
+region: primary_menu
+weight: -1
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

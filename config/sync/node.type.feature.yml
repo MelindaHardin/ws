@@ -1,0 +1,17 @@
+uuid: 1f3c656d-5b1d-4e0e-9dfa-a320f8d42f82
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Feature
+type: feature
+description: 'Services that will be rendered in the "Features" block.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
