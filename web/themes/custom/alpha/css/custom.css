@@ -1,0 +1,22 @@
+.header .header-wrapper {
+  height: 100vh;
+}
+.nav.navbar.solid.dark,
+nav.navbar.solid {
+  background-color: #284b63;
+}
+.header {
+  color: #284b63;
+}
+.section.light {
+  background-color: #d9d9d9;
+}
+
+.black,
+.section {
+  background-color: #fff;
+}
+
+.pricing-table {
+  border: 2px solid #3c6e71;
+}

@@ -1,0 +1,29 @@
+materialize-fonts:
+  remote: https://materializecss.com/icons.html
+  version: 1.0.0
+  license:
+    name: material-design-icons
+    url: https://github.com/google/material-design-icons/blob/master/LICENSE
+    gpl-compatible: false
+  css:
+    theme:
+      https://fonts.googleapis.com/icon?family=Material+Icons:
+        { type: external, minified: true }
+
+global-styling:
+  version: 1.0.5
+  css:
+    theme:
+      css/materialize.css: { minified: true }
+      css/custom.css: {}
+  js:
+    js/materialize.min.js: { minified: true }
+    js/imagesloaded.pkgd.min.js: { minified: true }
+    js/masonry.pkgd.min.js: { minified: true }
+    js/TweenMax.min.js: { minified: true }
+    js/ScrollMagic.min.js: { minified: true }
+    js/animation.gsap.min.js: { minified: true }
+    js/init.js: {}
+    js/startup.js: {}
+  dependencies:
+    - core/jquery

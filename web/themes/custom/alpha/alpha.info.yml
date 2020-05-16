@@ -1,0 +1,38 @@
+name: Alpha
+type: theme
+description: Wadesite theme
+core: 8.x
+base theme: classy
+
+libraries:
+  - alpha/materialize-fonts
+  - alpha/global-styling
+
+regions:
+  primary_menu: "Primary Menu"
+  banner: "Banner"
+  content: "Content"
+  features: "Features"
+  cards: "Cards"
+  price_table_left: "Price Table Left"
+  price_table_middle: "Price Table Middle"
+  price_table_right: "Price Table Right"
+  one_tl: "One Top Left"
+  one_bl: "One Bottom Left"
+  one_tr: "One Top Right"
+  one_br: "One Bottom Right"
+  two_top: "Two Top"
+  two_mid: "Two Middle"
+  two_btm: "Two Bottom"
+  three_top: "Three Top"
+  three_btm: "Three Bottom"
+  four_top: "Four Top"
+  four_btm: "Four Bottom"
+  five_center: "Five Center"
+  six_center: "Six Center"
+  pre_footer: "Pre Footer"
+  footer_one: "Footer One"
+  footer_two: "Footer Two"
+  footer_three: "Footer Three"
+  page_top: "Page top"
+  page_bottom: "Page bottom"
