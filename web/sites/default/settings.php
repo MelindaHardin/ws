@@ -776,7 +776,7 @@ $databases['default']['default'] = [
 ];
 
 $settings['trusted_host_patterns'] = [
-   '^localhost$',
+
    '^www\.wadesites\.com$',
 ];
 
