@@ -754,26 +754,26 @@ $settings['entity_update_backup'] = TRUE;
 #
 
 $settings['config_sync_directory'] = '../config/sync';
-// $databases['default']['default'] = array (
-//   'database' => 'ws',
-//   'username' => 'root',
-//   'password' => '',
-//   'prefix' => '',
-//   'host' => 'localhost',
-//   'port' => '3306',
-//   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-//   'driver' => 'mysql',
-// );
-$databases['default']['default'] = [
-  'database' => getenv('MYSQL_DATABASE'),
-  'driver' => 'mysql',
-  'host' => getenv('MYSQL_HOSTNAME'),
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'password' => getenv('MYSQL_PASSWORD'),
-  'port' => getenv('MYSQL_PORT'),
+$databases['default']['default'] = array (
+  'database' => 'ws',
+  'username' => 'root',
+  'password' => '',
   'prefix' => '',
-  'username' => getenv('MYSQL_USER'),
-];
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+// $databases['default']['default'] = [
+//   'database' => getenv('MYSQL_DATABASE'),
+//   'driver' => 'mysql',
+//   'host' => getenv('MYSQL_HOSTNAME'),
+//   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+//   'password' => getenv('MYSQL_PASSWORD'),
+//   'port' => getenv('MYSQL_PORT'),
+//   'prefix' => '',
+//   'username' => getenv('MYSQL_USER'),
+// ];
 
 $settings['trusted_host_patterns'] = [
    '^localhost$',
