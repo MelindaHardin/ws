@@ -9,11 +9,10 @@ libraries:
   - alpha/global-styling
 
 regions:
+  navigation: "navigation"
   primary_menu: "Primary Menu"
   banner: "Banner"
   content: "Content"
-  features: "Features"
-  cards: "Cards"
   price_table_left: "Price Table Left"
   price_table_middle: "Price Table Middle"
   price_table_right: "Price Table Right"
