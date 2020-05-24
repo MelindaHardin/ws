@@ -1,6 +1,6 @@
-uuid: ac4d56ba-c0f7-4e61-9913-36252c704cd4
+uuid: 40c3eb25-9366-4a43-9d46-3fc0c5443ef3
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - help
@@ -10,8 +10,8 @@ _core:
   default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
 id: alpha_help
 theme: alpha
-region: primary_menu
-weight: -3
+region: content
+weight: -2
 provider: null
 plugin: help_block
 settings:

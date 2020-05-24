@@ -1,6 +1,6 @@
-uuid: 9bbcd3c4-1b12-44b6-963e-cd43d9a41c0a
+uuid: e88f2403-2667-4645-b91c-82097953d6e6
 langcode: en
-status: false
+status: true
 dependencies:
   theme:
     - alpha
@@ -8,8 +8,8 @@ _core:
   default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
 id: alpha_local_actions
 theme: alpha
-region: primary_menu
-weight: -2
+region: content
+weight: -4
 provider: null
 plugin: local_actions_block
 settings:

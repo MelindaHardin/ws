@@ -1,6 +1,6 @@
-uuid: 56241ae8-021e-48db-8f16-a870dd012866
+uuid: 73dc50ac-58f5-4537-b032-0129040a9abd
 langcode: en
-status: false
+status: true
 dependencies:
   theme:
     - alpha
@@ -8,8 +8,8 @@ _core:
   default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
 id: alpha_page_title
 theme: alpha
-region: primary_menu
-weight: -5
+region: content
+weight: -6
 provider: null
 plugin: page_title_block
 settings:

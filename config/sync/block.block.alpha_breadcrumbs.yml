@@ -1,6 +1,6 @@
-uuid: d04355b3-c98c-4f27-a2ce-86e035462723
+uuid: 26ce9ea0-71d3-46ac-b4a8-8f03ddf1cd9e
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
 id: alpha_breadcrumbs
 theme: alpha
-region: primary_menu
-weight: -1
+region: navigation
+weight: -6
 provider: null
 plugin: system_breadcrumb_block
 settings:

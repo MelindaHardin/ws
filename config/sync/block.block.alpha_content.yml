@@ -1,6 +1,6 @@
-uuid: b4dae7c8-12b7-4cbc-843f-51573bceda43
+uuid: 849a94c7-47fc-4b14-9fde-b6c7767fcf98
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
 id: alpha_content
 theme: alpha
-region: primary_menu
-weight: 2
+region: content
+weight: -3
 provider: null
 plugin: system_main_block
 settings:

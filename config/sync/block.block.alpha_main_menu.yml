@@ -1,6 +1,6 @@
-uuid: 43ad9e78-cc0a-48f3-9fb3-7eb9c6078bb6
+uuid: 813dd679-e918-4bd7-8476-b6372da9fcbe
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - system.menu.main
@@ -13,7 +13,7 @@ _core:
 id: alpha_main_menu
 theme: alpha
 region: primary_menu
-weight: 1
+weight: 0
 provider: null
 plugin: 'system_menu_block:main'
 settings:

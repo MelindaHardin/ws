@@ -1,0 +1,12 @@
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 0
+  path: 'public://Color logo - no background900.png'
+favicon:
+  use_default: 0
+  path: 'public://Black logo - no background.png'
+  mimetype: image/png

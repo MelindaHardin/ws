@@ -1,6 +1,6 @@
-uuid: 751d2ebf-4f0c-4a8b-90c9-b11f0f927d73
+uuid: f241a751-81c2-4273-a7b7-60414154abfe
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - system.menu.account
@@ -12,8 +12,8 @@ _core:
   default_config_hash: 8a31Ywc1t2zlddGd3bmDrFMefWqgSK2E02ceFdr-bfc
 id: alpha_account_menu
 theme: alpha
-region: primary_menu
-weight: 5
+region: navigation
+weight: -2
 provider: null
 plugin: 'system_menu_block:account'
 settings:

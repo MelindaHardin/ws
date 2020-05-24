@@ -1,6 +1,6 @@
-uuid: 8022348f-449c-40a7-a463-7c90d918d2ff
+uuid: f65ada22-f621-45e0-bda0-2b8d56d49ee8
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
 id: alpha_branding
 theme: alpha
-region: primary_menu
-weight: 3
+region: banner
+weight: -6
 provider: null
 plugin: system_branding_block
 settings:
@@ -20,6 +20,6 @@ settings:
   provider: system
   label_display: '0'
   use_site_logo: true
-  use_site_name: true
-  use_site_slogan: true
+  use_site_name: false
+  use_site_slogan: false
 visibility: {  }

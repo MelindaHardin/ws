@@ -1,6 +1,6 @@
-uuid: f04938bc-6d24-4a40-a9c1-477b37ab6e72
+uuid: 6f5413f3-d57d-4386-8b27-4107a75d311d
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
 id: alpha_messages
 theme: alpha
-region: primary_menu
-weight: 4
+region: navigation
+weight: -4
 provider: null
 plugin: system_messages_block
 settings:

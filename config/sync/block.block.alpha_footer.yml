@@ -1,6 +1,6 @@
-uuid: 6762e1f2-9e47-437c-a61e-7c470bf50e92
+uuid: 38b4d1d7-2af4-48c3-ad69-7aec773839e4
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - system.menu.footer
@@ -12,8 +12,8 @@ _core:
   default_config_hash: 8zRjTNbfNAJ94lQpZDu6MkyD87GYJ2zpH9VQPVmRbcM
 id: alpha_footer
 theme: alpha
-region: primary_menu
-weight: 0
+region: navigation
+weight: -5
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
